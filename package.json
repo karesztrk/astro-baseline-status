@@ -1,6 +1,10 @@
 {
   "name": "astro-baseline-status",
   "version": "1.0.0",
+  "description": "Astro component to display web platform baseline status",
+  "license": "MIT",
+  "repository": "https://github.com/karesztrk/astro-baseline-status",
+  "homepage": "https://github.com/karesztrk/astro-baseline-status",
   "type": "module",
   "exports": {
     ".": "./index.ts"
