@@ -2,9 +2,11 @@
 
 A widget displaying Baseline status of a web feature based on https://github.com/web-platform-dx/web-features data.
 
+## Icons
+
 ![Default browser icons rendered](./docs/default_icons.png "Default browser icons")
 
-![Custom browser icons can be added](./docs/custom_icons.png "Custom browser icons")
+![Browser icons can be customized](./docs/custom_icons.png "Custom browser icons")
 
 ## How to use
 
@@ -49,6 +51,24 @@ import Safari from "./assets/Safari.svg";
   <!--   viewBox={`0 0 ...`} -->
   <!-- /> -->
 </BaselineStatus>
+```
+
+## Styling
+
+Style the widget icons using CSS variables.
+
+```css
+/* Browser status icon colors */
+--baseline-status-color-unavailable: light-dark(#ea8600, #f09418);
+--baseline-status-color-newly: light-dark(#1a73e8, #4185ff);
+--baseline-status-color-widely: light-dark(#1e8e3e, #24a446);
+--baseline-status-color-no_data: light-dark(#707070, #868686);
+/* Baseline status icon colors */
+--baseline-status-icon-color-limited: light-dark(#c6c6c6, #565656);
+--baseline-status-icon-color-newly: light-dark(#1b6ef3, #4185ff);
+--baseline-status-icon-dot-color-newly: light-dark(#a8c7fa, #2d509e);
+--baseline-status-icon-color-widely: light-dark(#c4eed0, #125225);
+--baseline-status-icon-color-no_data: light-dark(#909090, #666666);
 ```
 
 ## Advantages
