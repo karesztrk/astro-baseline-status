@@ -10,7 +10,11 @@
     "index.ts"
   ],
   "keywords": [
-    "astro-component"
+    "astro-component",
+    "baseline",
+    "web",
+    "platform",
+    "widget"
   ],
   "scripts": {},
   "devDependencies": {

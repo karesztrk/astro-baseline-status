@@ -2,6 +2,10 @@
 
 A widget displaying Baseline status of a web feature based on https://github.com/web-platform-dx/web-features data.
 
+![Default browser icons rendered](./docs/default_icons.png "Default browser icons")
+
+![Custom browser icons can be added](./docs/custom_icons.png "Custom browser icons")
+
 ## How to use
 
 Import the Astro component.
@@ -49,5 +53,5 @@ import Safari from "./assets/Safari.svg";
 
 ## Advantages
 
-- Bring your own style
-- Use your own images
+- 💅 An Bring your own style
+- 📷 An Use your own images

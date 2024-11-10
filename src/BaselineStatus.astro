@@ -195,6 +195,7 @@ const { chrome, edge, firefox, safari } = browsers.reduce(
       {baseline === "newly" && <baseline-badge>newly available</baseline-badge>}
     </baseline-status-description>
     <baseline-status-browsers>
+      <!-- Slots cannot be added dynamically -->
       <BaselineBrowser>
         <slot name="chrome" slot="browser">
           <Icon
