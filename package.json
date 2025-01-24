@@ -1,6 +1,6 @@
 {
   "name": "astro-baseline-status",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Astro component to display web platform baseline status",
   "license": "MIT",
   "repository": "https://github.com/karesztrk/astro-baseline-status",
@@ -23,13 +23,13 @@
   "scripts": {},
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
-    "astro": "^4.16.10",
+    "astro": "^5.1.9",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "typescript": "^5.6.3"
   },
   "peerDependencies": {
-    "astro": "^4.0.0",
-    "astro-svg-icon": "^1.0.0"
+    "astro": "^5.1.9",
+    "astro-svg-icon": "^1.1.1"
   }
 }
